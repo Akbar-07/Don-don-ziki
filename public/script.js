@@ -23,7 +23,6 @@ socket.on("result", (data) => {
   resultEl.innerHTML = `
     <p>You chose: <strong>${data.yourChoice}</strong></p>
     <p>Opponent chose: <strong>${data.opponentChoice}</strong></p>
-    <p><strong>${data.outcome}</strong></p>
   `;
 });
 
